@@ -1158,6 +1158,9 @@ span{
         grid-template-columns: repeat(2,1fr);
         margin: 0 5rem;
     }
+    .service-box{
+        height: 400px;
+    }
 }
 
 @media(max-width: 991px){
@@ -1186,6 +1189,9 @@ span{
     }
     .footer{
         padding: 2rem 3%;
+    }
+    .service-box{
+        height: 400px;
     }
 }
 
@@ -1240,6 +1246,9 @@ span{
         grid-template-columns: repeat(1,1fr);
         padding: 2rem;
         height: auto;
+    }
+    .service-box{
+        height: 400px;
     }
 }
     }
